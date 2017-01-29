@@ -1,0 +1,92 @@
+/*
+* @Author: Administrator
+* @Date:   2017-01-29 21:06:26
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-01-29 22:19:39
+*/
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ ul {
+ 	list-style: none;
+ }
+body {
+  background: #D8E0E3;
+  font-family: '微软雅黑';
+  text-align: center;
+  padding-top: 60px;
+}
+.outer {
+	position: relative;
+	width: 90px;
+	height: 90px;
+	margin: 0px auto;
+	margin-top: 80px;
+	padding: 5px;
+	background-color: #fff;
+	border-radius: 50px;
+}
+.outer .pic {
+	width: 90px;
+	height: 90px;
+	border-radius: 45px;
+	background-color: #f39;
+	
+}
+.outer .name {
+	position: absolute;
+	top: 110px;
+	left: 38px;
+}
+a.blog {
+  	text-align: center;
+    position: relative;
+    display: inline-block;
+    margin: 45px 45px;
+    outline: none;
+    color: #6A7EA2;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+	color: #6A7EA2;
+	color: rgba(0,0,0,0.2);
+	font-weight: 700;
+	text-shadow: none;
+	
+}
+.blog::before {
+	color: #2B3B54;
+	content: attr(data-hover);
+	position: absolute;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.blog:hover::before,
+.blog:focus::before {
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0;
+}  
+ul {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	width: 400px;
+	height: 50px;
+	margin-left:-200px;
+
+}
+
+ul li {
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	line-height: 50px;
+	color: #D4D4D4;
+}
