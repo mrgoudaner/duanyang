@@ -2,27 +2,71 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/index.css">
-    </head>
+        <title></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<script src="jquery-3.1.1.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </head> 
     <body>
-    <div class="outer">
-    	<div class="pic"></div>
-    	<div class="name">段洋</div>
+                <!-- nav -->
+        <div class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">DuanYang</a>
+                     <button data-toggle="collapse" data-target="#menu" class="navbar-toggle collapsed" type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="menu" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="input.html" class="navbar-link">Home</a></li>
+                        <li><a href="" class="navbar-link">WebNote</a></li>
+                        <li><a href="" class="navbar-link">Photo</a></li>
+                        <li>
+                            <a data-toggle="collapse" href="#info" class="navbar-link">About<span class="caret"></span></a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row"></div>
+            </div>
+            <table class="collapse table table-responsive table-striped table-hover" style="position: absolute;top: 50px;right: 10px; width: 300px" id="info">
+                            <tbody>
+                                <tr class="danger">
+                                    <td>姓名</td>
+                                    <td>段洋</td>
+                                </tr>
+                                <tr class="bg-success">
+                                    <td>电话</td>
+                                    <td>18231086650</td>
+                                </tr>
+                                <tr class="bg-danger">
+                                    <td>emil</td>
+                                    <td>duanyang1019@163.com</td>
+                                </tr>
+                                <tr class="bg-info">
+                                    <td>
+                                    qq<img class="img-responsive" src="IMG_8449.JPG" alt=""></td>
+                                    <td>
+                                    微信<img class="img-responsive" src="IMG_8449.JPG" alt=""></td>
+                                </tr>
+                            </tbody>
+            </table> 
+        </div>
+    
+        <!-- content -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="text">Welcome!</h1>
+            <h2>专注于技术的提升</h2>
+            <h3 class="text-center">技术的提升在于折腾</h3>    
+            <h3>最简单代码实现最好的效果</h3>  
+        </div>
     </div>
-    <a class="blog" href="#" data-hover="MYNOTE">
-  		<span>MYNOTE</span>
-	</a>
-	<a class="blog" href="#" data-hover="photo">
-  		<span>photo</span>
-	</a>
-	
-
-	<ul>
-		<li><a href="">aboutme</a></li>
-		<li><a href="">aboutme</a></li>
-		<li><a href="">aboutme</a></li>
-		<li><a href="">aboutme</a></li>
-	</ul>     
-
     </body>
 </html>
