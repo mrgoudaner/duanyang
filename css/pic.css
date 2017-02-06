@@ -1,0 +1,38 @@
+/*
+* @Author: Administrator
+* @Date:   2017-02-06 11:36:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-02-06 15:06:15
+*/
+    *{padding: 0;margin:0;}
+    #main{
+        position: relative;
+        margin: 0 auto;
+    }
+    .pic{
+        padding: 15px 0 0 15px;
+        float:left;
+    }
+    .box{
+        padding: 10px;
+        border:1px solid #ccc;
+        box-shadow: 0 0 6px #ccc;
+        border-radius: 5px;
+        position: relative;
+    }
+    .box img{
+        width:162px;
+        height:auto;
+    }
+    .box p {
+        width: 162px;
+        height: 40px;
+        color: #E7E6E1;
+        padding: 10px 50px;
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        background: rgba(39, 40, 34, 0.5);
+        display: none;
+
+    }
